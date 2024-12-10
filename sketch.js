@@ -1,47 +1,13 @@
-// let ball;
 
-// function setup() {
-// 	new Canvas(500, 500);
-// 	displayMode('centered');
-
-// 	ball = new Sprite();
-// 	ball.diameter = 50;
-// }
-
-// function draw() {
-// 	background('skyblue');
-
-// 	if (mouse.presses()) {
-// 		ball.speed = 10;
-// 		ball.moveTo(mouse);
-// 	}
-// }
-
-// let ball;
-
-// function setup() {
-//   new Canvas(500, 500); // Create a centered canvas
-//   displayMode('centered');
-
-//   ball = new Sprite(); // Initialize the ball
-//   ball.diameter = 50;  // Set the ball's size
-//   ball.bounciness = 1; // Make the ball bounce off edges
-// }
-
-// function draw() {
-//   background('skyblue'); // Set a background color
-
-//   // Check if the mouse is pressed
-//   if (mouse.presses()) {
-//     ball.speed += 1; // Increase speed with each click
-//     ball.moveTo(mouse); // Move the ball toward the mouse
-//   }
-
-//   // Display the current speed
-//   textSize(20);
-//   fill('black');
-//   text(`Speed: ${ball.speed.toFixed(2)}`, 10, 30);
-// }
+/*
+This project was created using a game development library to create an interactive and engaging game. 
+Through this tool, I learned how to manage game elements like sprites, collisions, 
+and animations, as well as how to control game flow using variables and logic. Basic topics like variables, 
+functions, conditionals, and loops were applied to handle scoring, obstacle movement, and game state. Arrays 
+were used to manage multiple obstacles dynamically, and events like mouse inputs were integrated for user interaction. 
+As an intermediate topic, I explored dynamic difficulty adjustment by modifying obstacle speed and spawn rates based on 
+the player's score, adding an extra layer of complexity and challenge to the game.
+*/
 
 
 let ball; // The player's ball
